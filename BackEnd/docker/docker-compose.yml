@@ -10,7 +10,7 @@ services:
     ports:
       - "8082:3200"
     env_file:
-      - ./src/.env
+      - ../src/.env
     networks:
       - my-network
 networks:
