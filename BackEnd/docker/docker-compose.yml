@@ -4,7 +4,7 @@ services:
 
   backend-book:
     build:
-      context: .
+      context: ..
       dockerfile: docker/Dockerfile
     container_name: yavibook
     ports:
